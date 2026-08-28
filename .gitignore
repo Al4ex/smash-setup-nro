@@ -1,0 +1,5 @@
+build/
+/smash_setup.nro
+*.elf
+*.nacp
+assets/
