@@ -14,8 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install libnx
-        run: dkp-pacman -Sy --noconfirm switch-libnx
+      - name: Install switch-dev toolchain
+        run: dkp-pacman -Sy --noconfirm switch-dev
 
       - name: Build NRO
         run: make
