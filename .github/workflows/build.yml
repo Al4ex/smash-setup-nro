@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: devkitpro/devkita64:latest
+    env:
+      DEVKITPRO: /opt/devkitpro
     steps:
       - name: Checkout
         uses: actions/checkout@v4
